@@ -1,5 +1,13 @@
 <div align="center">
 
+# Caution: This is the unofficial version
+
+I will continue updating this version as questions come up and am no longer maintainer of the official repo and do not have access to the code.
+
+There are two important updates:
+* The default inference scaling should be `10` as used in the paper this is fixed in this version (see https://github.com/DreamFold/FoldFlow/issues/7).
+* A `meatadata.csv` file is now supplied in `data/metadata.csv`. I'm almost certain I have reproduced the metadata file, but this cannot be guaranteed. This contains the exact list of proteins used to train FoldFlow. You still need to download from the pdb all PDB files, but this list will allow training on the same dataset.
+
 # SE(3)-Stochastic Flow Matching for Protein Backbone Generation
 
 [![FF-1 Preprint](http://img.shields.io/badge/paper-arxiv.2310.02391-B31B1B.svg)](https://arxiv.org/abs/2310.02391)

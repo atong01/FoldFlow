@@ -18,5 +18,5 @@ so3:
   min_sigma: 0.01
   max_sigma: 1.5
   axis_angle: True
-  inference_scaling: -0.01
+  inference_scaling: 10
   g: 0.1
